@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif ;
+    transition: 0.2s ease;
+}
+
+
+header{
+    background-color: #eee;
+}
+
+section.nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: white !important;
+    padding: 35px 0px;
+}
+
+
+
+.navbar .navbar-brand img{
+    width: 160px;
+    margin-right: 80px;
+}
+
+#navbarDropdown.nav-link.dropdown-toggle ,a.nav-link{
+    font-family: "Montserrat", sans-serif;
+    color: black !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    margin-left: 10px;
+    /* padding: 10px 0px; */
+    
+}
+a.nav-link.badge.badge-secondary{
+    margin-top: -4px !important;
+    padding: 13px;
+    background-color: #ffb600;
+}
+a.nav-link.badge.badge-secondary:hover{
+    background-color: black;
+    color: #ffb600 !important   ;
+}
+
+.carousel-control-prev div,
+.carousel-control-next div{
+    background-color: black;
+    /* padding: 17px; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.2;
+}
+.carousel-control-prev div:hover{
+    background-color: #ffb600;
+    opacity: 1;
+}
+.carousel-control-next div:hover{
+    background-color: #ffb600;
+    opacity: 1;
+}
+
+.cards{
+    
+    background-color: rgb(0,0,0,0.8);
+    /* opacity: 0.3; */
+    max-width: 650px;
+    position: relative;
+    top: -470px;
+    left: 150px;
+    padding: 30px;
+}
+
+.cards h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    /* opacity: 1; */
+    
+}
+.cards h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin: 8px 0px 10px;
+}
+.cards p{
+    color: white;
+    margin: 0px 0px 20px;
+
+}
+
+.cards .btn{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffb600;
+    padding:10px ;
+}
+
+section.bar {
+    background-color: #272D33;
+    padding: 35px;
+    position: relative;
+    bottom: 254px;
+}
+section.bar .row {
+    
+    position: relative;
+    top: 10px;
+}
+
+section.bar h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.col-4 a.nav-link.badge.badge-secondary{
+    color: white !important;
+    
+}
+.col-4 {
+    text-align: right;
+
+}
+
+
+section.card{
+    position: relative;
+    top: -175px;
+    border: none;
+}
+
+.card-group .col-lg-4 .cont{
+    display: flex;
+}
+.card-group .col-lg-4 .cont img{
+    align-self: flex-start;
+    padding-top: 20px;
+}
+.card-group .col-lg-4 .cont .card-body a.card-title{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+}
+.card-group .col-lg-4 .cont .card-body a.card-title:hover{
+    color: #ffb600;
+    
+}
+.card-group .col-lg-4 .cont .card-body p.card-text{
+    margin-top: 10px;
+    
+}
+.card-group .col-lg-4 .cont .card-body a.card-text{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.card-group .col-lg-4 .cont .card-body a.card-text:hover{
+    color: #ffb600;
+
+    
+}
+.card-group .col-lg-4 {
+    border: none;
+
+}
+
+.fact {
+    background-color: #252525;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    position: relative;
+    top: -150px;
+}
+
+.fact .container .row .cl
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fact .container .row h2,
+.fact .container .row p{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+
+.fact .container .row h2{
+    font-size: 46px;
+    padding-top: 30px;
+
+}
+
+.fact .container .row p{
+    color: #ffb600;
+}
+
+.special{
+    position: relative;
+    top: -100px;
+}
+
+.special .container .head .row{
+    
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.special .container .head p{
+    margin: 0;
+}
+
+.special .container .head span{
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+
+.special .container .row .data{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.special .container .row .data .data2{
+    margin-left: 30px;
+}
+.special .container .row .data .data2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.special .container .row .data .data2 a:hover{
+    color: #ffb600;
+}
+.special .container .row .data .data2 p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+
+.special .container .row .img{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.projects{
+        position: relative;
+        top: -100px;
+    }
+    .projects .container .head .row{
+        
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .projects .container .head p{
+        margin: 0;
+    }
+    
+    .projects .container .head span{
+        font-size: 36px;
+        font-weight: 900;
+        letter-spacing: -1px;
+    }
+    
+    .projects .container .btnbar
+    {
+        border-bottom: 5px solid #ffb600;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+
+    #btnbar span{
+        padding: 10px 15px 5px 15px !important;
+        
+    }
+
+    .mystyle{
+        background-color: #ffb600;
+    }
+
+    
+    .projects .container .imgs {
+        margin-bottom: 50px;
+    }
+    .projects .container .imgs img{
+        max-width: 100%;
+    }
+    .projects .container .imgs .col-lg-4{
+        padding: 0 !important;
+        transition:display 1s ;
+        
+    }
+    .projects .container .imgs .col-lg-4:hover .hover{
+        display: block;
+        
+        transition:display 1s ;
+
+    }
+    .projects .container .imgs .hover{
+        background-color: rgb(0, 0, 0,0.6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: none;
+        transition:all 0.3s ease-in-out;
+}
+
+
+    .projects .container .imgs .hover .badge{
+        background-color: #ffb600;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        position: absolute;
+        right: 0;
+        border-radius: 0;
+        padding: 5px 10px;
+    }
+    .projects .container .imgs .hover .link a{
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1;
+        text-decoration: none;
+        position: relative;
+        top: 60px;
+        left: 35px;
+    }
+    .projects .container .imgs .hover .link a:hover{
+        color: #ffb600;
+        
+        
+    }
+    .projects .container .imgs .hover .badg{
+        background-color: #ffb600;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 7px 4px;
+        position: absolute;
+        left: 35px;
+        top: 165px;
+        
+    }
+
+    .projects .container .foot .row{
+        text-align: center;
+    }
+    
+    .projects .container .foot span{
+        color: white;
+        background: #ffb600;
+        padding: 10px 30px;
+        font-weight: 700;
+    }
+    
+
+
+
+    /* content */
+    .content  h3{
+        font-weight: 700;
+        font-size: 24px;
+        
+    }
+
+    .content .row div.col-lg-6{
+        margin-bottom: 100px;
+    }
+    .content .carousel-item {
+        margin-left: 50px;
+        margin-top: 30px;
+    } 
+
+    .content .carousel-item p{
+        margin-bottom: 3rem;
+    } 
+    .content .carousel-item .cont{
+        display: flex;
+    } 
+    .content .carousel-item .cont img{
+        height: 80px;
+        width: 80px;
+        border-radius: 5px;
+    } 
+    .content .carousel-item .cont .data{
+        margin-left: 25px;
+        margin-top: 15px;
+    } 
+    .content .carousel-item .cont .data span:first-child{
+        color: #ffb600;
+        font-weight: 700    ;
+        
+    }
+    
+    .content .carousel-indicators{
+        bottom: -60px;
+    }
+    
+    .content .carousel-indicators li{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        background-color: rgb(66, 66, 66) !important;
+        margin-right: 25px !important;
+
+    }
+    
+    .carousel-indicators li.active{
+        background-color: #ffb600 !important;
+    }
+
+    
+    .content .flex{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .content .flex div {
+        border: 1px solid rgb(179, 179, 179);
+        padding: 30px 40px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .content .flex div img{
+        max-width: 70px;
+        filter: grayscale(100%);
+    }
+
+    /*---------------------------------------------------- */
+
+    .contact {
+        margin-top: 50px;
+        background-color: #ffb600;
+        overflow: hidden;
+    }
+    
+    .contact .can-we-help p:last-of-type {
+    color: #ffffff;
+}
+    
+    .newsletter {
+        position: relative;
+    }
+    
+    .contact .newsletter::after {
+        content: "";
+    position: absolute;
+    background: #343a40;
+    display: block;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+}
+    
+.newsletter .message {
+    color: #ffffff;
+}
+    
+    .newsletter .newsletter-input input {
+        background-color: transparent;
+    height: 50px;
+    border: 2px solid #ffffff4d;
+    }
+    
+    .newsletter .newsletter-input input:focus {
+        background-color: #ffffff;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #ffb600;
+}
+
+
+      /* ----------------------------------------------------- */
+      
+      
+    .recent-projects .card {
+        cursor: pointer;
+    }
+    
+    
+    
+    .recent-projects .card .card-body p:hover:first-of-type {
+        color: #ffb600;
+    }
+    
+    .see-all-posts {
+        width: fit-content;
+        margin: auto;
+    }
+    .see-all-posts button{
+        background-color: #ffb600;
+    }
+
+    
+    /* ------------------------------------------------------------ */
+    
+
+    .footer {
+        color: #999;
+}
+
+.footer h3 {
+color: #ffffff;
+position: relative;
+}
+.footer h3::before {
+content: "";
+position: absolute;
+width: 2px;
+height: 100%;
+background-color: #ffb600;
+margin-left: -10px;
+}
+
+.footer .services .service li {
+    position: relative;
+    padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 25px;
+cursor: pointer;
+}
+
+.footer .services .service li::before {
+    content: "\f105";
+font-family: "Font Awesome 5 Free";
+position: absolute;
+font-size: 20px;
+left: 0px;
+top: 50%;
+font-weight: 700;
+color: #737474;
+transform: translateY(-50%);
+}
+
+.footer .services .service li:not(:last-of-type) {
+border-bottom: 1px solid #ffffff12;
+}
+
+.footer .services .service li:hover {
+color: #ffb600;
+}
+/* -------------------------------------------------------------------------------------- */
+
+.copyrights {
+background-color: #ffb600;
+}
+
+.copyrights p span {
+cursor: pointer;
+}
+
+.copyrights ul li {
+    cursor: pointer;
+font-weight: 500;
+}
+
+.copyrights ul li:hover {
+color: #ffffff;
+}
+/* ---------------------------------------------------------------------------- */
+
+.go-to-up {
+display: inline-block;
+width: 40px;
+height: 40px;
+background-color: #212529;
+color: #ffb600;
+text-align: center;
+line-height: 40px;
+border-radius: 5px;
+position: fixed;
+bottom: 15px;
+right: 15px;
+cursor: pointer;
+opacity: 0;
+}
+
+.go-to-up:hover {
+    color: #fff;
+}
+
+@media screen and (max-width:1116px) {
+    #navbarDropdown.nav-link.dropdown-toggle ,a.nav-link{
+        
+        margin-left: 3px;
+        padding: 2px;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards{
+        max-width: 550px;
+        top: -270px;
+        left: 70px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .cards{
+        max-width: 350px;
+        top: -550px;
+        left: 40px;
+    }
+
+    .carousel-item{
+        height: 450px;
+    }
+    .carousel-item img{
+        width: fit-content !important;
+    }
+    .navbar.navbar-expand-lg.navbar-light.bg-light{
+        padding: 15px 0px;
+    }
+    header div.container div.row{
+        display: block;
+    }
+    header div.container div.row div{
+        text-align: center !important;
+    }
+}
